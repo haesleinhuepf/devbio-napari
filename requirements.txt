@@ -1,6 +1,0 @@
-cellpose-napari
-stardist-napari
-napari-pyclesperanto-assistant
-napari-skimage-regionprops
-napari-animation
-napari-aicsimageio
