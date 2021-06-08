@@ -1,10 +1,10 @@
 # devbio-napari
 
-[![License](https://img.shields.io/pypi/l/devbio.svg?color=green)](https://github.com/haesleinhuepf/devbio/raw/master/LICENSE)
-[![PyPI](https://img.shields.io/pypi/v/devbio.svg?color=green)](https://pypi.org/project/devbio)
-[![Python Version](https://img.shields.io/pypi/pyversions/devbio.svg?color=green)](https://python.org)
-[![tests](https://github.com/haesleinhuepf/devbio/workflows/tests/badge.svg)](https://github.com/haesleinhuepf/devbio/actions)
-[![codecov](https://codecov.io/gh/haesleinhuepf/devbio/branch/master/graph/badge.svg)](https://codecov.io/gh/haesleinhuepf/devbio)
+[![License](https://img.shields.io/pypi/l/devbio-napari.svg?color=green)](https://github.com/haesleinhuepf/devbio-napari/raw/master/LICENSE)
+[![PyPI](https://img.shields.io/pypi/v/devbio-napari.svg?color=green)](https://pypi.org/project/devbio-napari)
+[![Python Version](https://img.shields.io/pypi/pyversions/devbio-napari.svg?color=green)](https://python.org)
+[![tests](https://github.com/haesleinhuepf/devbio-napari/workflows/tests/badge.svg)](https://github.com/haesleinhuepf/devbio-napari/actions)
+[![codecov](https://codecov.io/gh/haesleinhuepf/devbio-napari/branch/master/graph/badge.svg)](https://codecov.io/gh/haesleinhuepf/devbio-napari)
 
 A collection of napari plugins useful for studying developmental biology
 * [aicsimageio](https://github.com/AllenCellModeling/napari-aicsimageio)
