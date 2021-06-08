@@ -22,8 +22,7 @@ This [napari] plugin was generated with [Cookiecutter] using with [@napari]'s [c
 
 You can install `devbio` via [pip]:
 
-    pip install napari[]
-
+    pip install 'napari[all]'
     pip install devbio-napari
 
 Windows users should install [pyopencl](https://documen.tician.de/pyopencl/) via conda in **advance**:
