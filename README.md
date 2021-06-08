@@ -6,7 +6,7 @@
 [![tests](https://github.com/haesleinhuepf/devbio/workflows/tests/badge.svg)](https://github.com/haesleinhuepf/devbio/actions)
 [![codecov](https://codecov.io/gh/haesleinhuepf/devbio/branch/master/graph/badge.svg)](https://codecov.io/gh/haesleinhuepf/devbio)
 
-A collection of napari plugins useful for studying developmental biology consisting of
+A collection of napari plugins useful for studying developmental biology
 * [aicsimageio](https://github.com/AllenCellModeling/napari-aicsimageio)
 * [Cellpose](https://github.com/MouseLand/cellpose-napari)
 * [StarDist](https://github.com/stardist/stardist-napari)
