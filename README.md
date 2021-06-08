@@ -20,7 +20,7 @@ This [napari] plugin was generated with [Cookiecutter] using with [@napari]'s [c
 
 ## Installation
 
-You can install `devbio` via [pip]:
+You can install `devbio-napari` via [pip]:
 
     pip install 'napari[all]'
     pip install devbio-napari
@@ -31,13 +31,12 @@ Windows users should install [pyopencl](https://documen.tician.de/pyopencl/) via
 
 ## Contributing
 
-Contributions are very welcome. Tests can be run with [tox], please ensure
-the coverage at least stays the same before you submit a pull request.
+Contributions are very welcome. If you want to suggest a new napari plugin to become part of this distribution, please make sure it interoperates nicely with the other plugins. For example, if the plugin you suggest provided cell segmentation algorithms, please check if the resulting segmented cells can be analysed using napari-skimage-regionprops.
 
 ## License
 
 Distributed under the terms of the [BSD-3] license,
-"devbio" is free and open source software
+"devbio-napari" is free and open source software
 
 ## Issues
 
