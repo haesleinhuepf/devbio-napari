@@ -20,7 +20,7 @@ This [napari] plugin was generated with [Cookiecutter] using with [@napari]'s [c
 
 You can install `devbio-napari` via [pip]:
 
-    pip install 'napari[all]'
+    conda install -c conda-forge pyopencl jupyter notebook
     pip install devbio-napari
 
 Windows users should install [pyopencl](https://documen.tician.de/pyopencl/) via conda in **advance**:
