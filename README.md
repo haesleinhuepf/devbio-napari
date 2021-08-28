@@ -46,7 +46,11 @@ Windows users should install [pyopencl](https://documen.tician.de/pyopencl/) via
 
 ## Contributing
 
-Contributions are very welcome. If you want to suggest a new napari plugin to become part of this distribution, please make sure it interoperates nicely with the other plugins. For example, if the plugin you suggest provided cell segmentation algorithms, please check if the resulting segmented cells can be analysed using napari-skimage-regionprops.
+Contributions are very welcome. 
+If you want to [suggest a new napari plugin](https://github.com/haesleinhuepf/devbio-napari/pulls) to become part of this distribution, please make sure it interoperates nicely with the other plugins. 
+For example, if the plugin you suggest provided cell segmentation algorithms, please check if the resulting segmented cells can be analysed using napari-skimage-regionprops.
+Furthermore, please make sure the README of the plugin you are proposing comes with user documentation, e.g. a step-by-step guide with screenshots explaining what users can do with the plugin and how to use it. 
+It is recommended to proved example data as well so that end-users can try out the plugin under conditions it was developed for.
 
 ## License
 
