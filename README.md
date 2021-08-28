@@ -4,13 +4,28 @@
 [![PyPI](https://img.shields.io/pypi/v/devbio-napari.svg?color=green)](https://pypi.org/project/devbio-napari)
 [![Python Version](https://img.shields.io/pypi/pyversions/devbio-napari.svg?color=green)](https://python.org)
 
-A collection of napari plugins useful for studying developmental biology
-* [aicsimageio](https://github.com/AllenCellModeling/napari-aicsimageio)
-* [Cellpose](https://github.com/MouseLand/cellpose-napari)
-* [StarDist](https://github.com/stardist/stardist-napari)
-* [clEsperanto](https://clesperanto.github.io/napari_pyclesperanto_assistant/)
-* [scikit-image regionprops](https://github.com/haesleinhuepf/napari-skimage-regionprops)
-* [animation](https://github.com/napari/napari-animation)
+A collection of napari plugins useful for studying developmental biology.
+
+* File input/output plugins
+  * [aicsimageio](https://www.napari-hub.org/plugins/napari-aicsimageio)
+  * [napari-itk-io](https://www.napari-hub.org/plugins/napari-itk-io) 
+  * [ome-zarr](https://www.napari-hub.org/plugins/napari-ome-zarr)
+* Image exploration and visualization tools
+  * [animation](https://www.napari-hub.org/plugins/napari-animation)
+* Image segmentation plugins
+  * [Cellpose](https://www.napari-hub.org/plugins/cellpose-napari)
+  * [StarDist](https://www.napari-hub.org/plugins/stardist-napari)
+  * [oclrfc](https://www.napari-hub.org/plugins/napari-oclrfc)
+  * [pyclesperanto-assistant](https://www.napari-hub.org/plugins/napari-pyclesperanto-assistant)
+  * [Manual split & merge labels](https://www.napari-hub.org/plugins/napari-manual-split-and-merge-labels)
+* Image registration
+  * [PlatyMatch](https://www.napari-hub.org/plugins/PlatyMatch)
+* Quantitative measurements
+  * [scikit-image regionprops](https://www.napari-hub.org/plugins/napari-skimage-regionprops)
+  * [plot-profile](https://www.napari-hub.org/plugins/napari-plot-profile)
+* Utilities
+  * [brightness-contrast](https://www.napari-hub.org/plugins/napari-brightness-contrast)
+  * [plugin-search](https://www.napari-hub.org/plugins/napari-plugin-search)
 
 ----------------------------------
 
@@ -23,9 +38,11 @@ You can install `devbio-napari` via [pip]:
     conda install -c conda-forge pyopencl jupyter notebook
     pip install devbio-napari
 
-Windows users should install [pyopencl](https://documen.tician.de/pyopencl/) via conda in **advance**:
+Windows users should install [pyopencl](https://documen.tician.de/pyopencl/) via conda **in advance**:
 
     conda install -c conda-forge pyopencl
+
+[See also](https://github.com/clEsperanto/napari_pyclesperanto_assistant#Installation).
 
 ## Contributing
 
