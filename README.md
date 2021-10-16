@@ -12,12 +12,14 @@ A collection of napari plugins useful for studying developmental biology.
   * [ome-zarr](https://www.napari-hub.org/plugins/napari-ome-zarr)
 * Image exploration and visualization tools
   * [animation](https://www.napari-hub.org/plugins/napari-animation)
+  * [folder-browser](https://www.napari-hub.org/plugins/napari-folder-browser)
 * Image segmentation plugins
   * [Cellpose](https://www.napari-hub.org/plugins/cellpose-napari)
   * [StarDist](https://www.napari-hub.org/plugins/stardist-napari)
-  * [oclrfc](https://www.napari-hub.org/plugins/napari-oclrfc)
+  * [accelerated-pixel-and-object-classification](https://www.napari-hub.org/plugins/napari-accelerated-pixel-and-object-classification)
   * [pyclesperanto-assistant](https://www.napari-hub.org/plugins/napari-pyclesperanto-assistant)
   * [Manual split & merge labels](https://www.napari-hub.org/plugins/napari-manual-split-and-merge-labels)
+  * [segment-blobs-and-things-with-membranes](https://www.napari-hub.org/plugins/napari-segment-blobs-and-things-with-membranes)
 * Image registration
   * [PlatyMatch](https://www.napari-hub.org/plugins/PlatyMatch)
 * Quantitative measurements
@@ -26,7 +28,6 @@ A collection of napari plugins useful for studying developmental biology.
 * Utilities
   * [brightness-contrast](https://www.napari-hub.org/plugins/napari-brightness-contrast)
   * [plugin-search](https://www.napari-hub.org/plugins/napari-plugin-search)
-  * [brushsettings](https://www.napari-hub.org/plugins/napari-brushsettings)
 
 ----------------------------------
 
