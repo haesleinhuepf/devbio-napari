@@ -14,8 +14,6 @@ A collection of napari plugins useful for studying developmental biology.
   * [animation](https://www.napari-hub.org/plugins/napari-animation)
   * [folder-browser](https://www.napari-hub.org/plugins/napari-folder-browser)
 * Image segmentation plugins
-  * [Cellpose](https://www.napari-hub.org/plugins/cellpose-napari)
-  * [StarDist](https://www.napari-hub.org/plugins/stardist-napari)
   * [accelerated-pixel-and-object-classification](https://www.napari-hub.org/plugins/napari-accelerated-pixel-and-object-classification)
   * [pyclesperanto-assistant](https://www.napari-hub.org/plugins/napari-pyclesperanto-assistant)
   * [Manual split & merge labels](https://www.napari-hub.org/plugins/napari-manual-split-and-merge-labels)
