@@ -26,6 +26,7 @@ A collection of napari plugins useful for studying developmental biology.
 * Utilities
   * [brightness-contrast](https://www.napari-hub.org/plugins/napari-brightness-contrast)
   * [plugin-search](https://www.napari-hub.org/plugins/napari-plugin-search)
+  * [crop](https://www.napari-hub.org/plugins/napari-crop)
 
 ----------------------------------
 
