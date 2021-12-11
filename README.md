@@ -18,15 +18,18 @@ A collection of napari plugins useful for studying developmental biology.
   * [pyclesperanto-assistant](https://www.napari-hub.org/plugins/napari-pyclesperanto-assistant)
   * [Manual split & merge labels](https://www.napari-hub.org/plugins/napari-manual-split-and-merge-labels)
   * [segment-blobs-and-things-with-membranes](https://www.napari-hub.org/plugins/napari-segment-blobs-and-things-with-membranes)
+  * [simpleitk-image-processing](https://www.napari-hub.org/plugins/napari-simpleitk-image-processing)
 * Image registration
   * [PlatyMatch](https://www.napari-hub.org/plugins/PlatyMatch)
 * Quantitative measurements
   * [scikit-image regionprops](https://www.napari-hub.org/plugins/napari-skimage-regionprops)
   * [plot-profile](https://www.napari-hub.org/plugins/napari-plot-profile)
+  * [clusters-plotter](https://www.napari-hub.org/plugins/napari-clusters-plotter)
 * Utilities
   * [brightness-contrast](https://www.napari-hub.org/plugins/napari-brightness-contrast)
   * [plugin-search](https://www.napari-hub.org/plugins/napari-plugin-search)
   * [crop](https://www.napari-hub.org/plugins/napari-crop)
+  * [tabu](https://www.napari-hub.org/plugins/napari-tabu)
 
 ----------------------------------
 
