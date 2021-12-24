@@ -19,8 +19,6 @@ A collection of napari plugins useful for studying developmental biology.
   * [Manual split & merge labels](https://www.napari-hub.org/plugins/napari-manual-split-and-merge-labels)
   * [segment-blobs-and-things-with-membranes](https://www.napari-hub.org/plugins/napari-segment-blobs-and-things-with-membranes)
   * [simpleitk-image-processing](https://www.napari-hub.org/plugins/napari-simpleitk-image-processing)
-  * [stardist](https://www.napari-hub.org/plugins/stardist-napari)
-  * [cellpose](https://www.napari-hub.org/plugins/cellpose-napari)
 * Image registration
   * [PlatyMatch](https://www.napari-hub.org/plugins/PlatyMatch)
 * Quantitative measurements
