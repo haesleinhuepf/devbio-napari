@@ -13,6 +13,8 @@ A collection of napari plugins useful for studying developmental biology.
 * Image exploration and visualization tools
   * [animation](https://www.napari-hub.org/plugins/napari-animation)
   * [folder-browser](https://www.napari-hub.org/plugins/napari-folder-browser)
+* Image processing 
+  * [RedLionfish](https://www.napari-hub.org/plugins/RedLionfish)
 * Image segmentation plugins
   * [accelerated-pixel-and-object-classification](https://www.napari-hub.org/plugins/napari-accelerated-pixel-and-object-classification)
   * [pyclesperanto-assistant](https://www.napari-hub.org/plugins/napari-pyclesperanto-assistant)
