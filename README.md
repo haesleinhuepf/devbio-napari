@@ -17,6 +17,8 @@ A collection of napari plugins useful for studying developmental biology.
   * [folder-browser](https://www.napari-hub.org/plugins/napari-folder-browser)
 * Image processing 
   * [RedLionfish](https://www.napari-hub.org/plugins/RedLionfish)
+  * [pyclesperanto-assistant](https://www.napari-hub.org/plugins/napari-pyclesperanto-assistant)
+  * [simpleitk-image-processing](https://www.napari-hub.org/plugins/napari-simpleitk-image-processing)
 * Image segmentation plugins
   * [accelerated-pixel-and-object-classification](https://www.napari-hub.org/plugins/napari-accelerated-pixel-and-object-classification)
   * [pyclesperanto-assistant](https://www.napari-hub.org/plugins/napari-pyclesperanto-assistant)
@@ -29,6 +31,8 @@ A collection of napari plugins useful for studying developmental biology.
   * [scikit-image regionprops](https://www.napari-hub.org/plugins/napari-skimage-regionprops)
   * [plot-profile](https://www.napari-hub.org/plugins/napari-plot-profile)
   * [clusters-plotter](https://www.napari-hub.org/plugins/napari-clusters-plotter)
+  * [pyclesperanto-assistant](https://www.napari-hub.org/plugins/napari-pyclesperanto-assistant)
+  * [simpleitk-image-processing](https://www.napari-hub.org/plugins/napari-simpleitk-image-processing)
 * Utilities
   * [brightness-contrast](https://www.napari-hub.org/plugins/napari-brightness-contrast)
   * [plugin-search](https://www.napari-hub.org/plugins/napari-plugin-search)
