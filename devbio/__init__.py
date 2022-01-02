@@ -1,5 +1,5 @@
 
-__version__ = "0.1.4"
+__version__ = "0.1.5"
 
 from napari_tools_menu import register_dock_widget
 
