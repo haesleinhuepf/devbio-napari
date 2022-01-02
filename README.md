@@ -12,6 +12,8 @@ A collection of napari plugins useful for studying developmental biology.
   * [ome-zarr](https://www.napari-hub.org/plugins/napari-ome-zarr)
 * Image exploration and visualization tools
   * [animation](https://www.napari-hub.org/plugins/napari-animation)
+  * [curtain](https://www.napari-hub.org/plugins/napari-curtain)
+  * [napari-3d-ortho-viewer](https://www.napari-hub.org/plugins/napari-3d-ortho-viewer)
   * [folder-browser](https://www.napari-hub.org/plugins/napari-folder-browser)
 * Image processing 
   * [RedLionfish](https://www.napari-hub.org/plugins/RedLionfish)
@@ -32,6 +34,7 @@ A collection of napari plugins useful for studying developmental biology.
   * [plugin-search](https://www.napari-hub.org/plugins/napari-plugin-search)
   * [crop](https://www.napari-hub.org/plugins/napari-crop)
   * [tabu](https://www.napari-hub.org/plugins/napari-tabu)
+  * [workflow-optimizer](https://www.napari-hub.org/pluginsnapari-workflow-optimizer)
 
 ----------------------------------
 
