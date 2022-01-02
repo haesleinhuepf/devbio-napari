@@ -3,8 +3,13 @@
 [![License](https://img.shields.io/pypi/l/devbio-napari.svg?color=green)](https://github.com/haesleinhuepf/devbio-napari/raw/master/LICENSE)
 [![PyPI](https://img.shields.io/pypi/v/devbio-napari.svg?color=green)](https://pypi.org/project/devbio-napari)
 [![Python Version](https://img.shields.io/pypi/pyversions/devbio-napari.svg?color=green)](https://python.org)
+[![tests](https://github.com/haesleinhuepf/devbio-napari/workflows/tests/badge.svg)](https://github.com/haesleinhuepf/napari-plot-profile/actions)
+[![codecov](https://codecov.io/gh/haesleinhuepf/devbio-napari/branch/master/graph/badge.svg)](https://codecov.io/gh/haesleinhuepf/devbio-napari)
+[![Development Status](https://img.shields.io/pypi/status/devbio-napari.svg)](https://en.wikipedia.org/wiki/Software_release_life_cycle#Alpha)
+[![napari hub](https://img.shields.io/endpoint?url=https://api.napari-hub.org/shields/devbio-napari)](https://napari-hub.org/plugins/devbio-napari)
 
-A collection of napari plugins useful for studying developmental biology.
+
+A bundle of napari plugins useful for 3D+t image processing and analysis for studying developmental biology.
 
 * File input/output plugins
   * [aicsimageio](https://www.napari-hub.org/plugins/napari-aicsimageio)
@@ -44,14 +49,8 @@ This [napari] plugin was generated with [Cookiecutter] using with [@napari]'s [c
 
 You can install `devbio-napari` via [pip]:
 
-    conda install -c conda-forge pyopencl jupyter notebook
-    pip install devbio-napari
-
-Windows users should install [pyopencl](https://documen.tician.de/pyopencl/) via conda **in advance**:
-
     conda install -c conda-forge pyopencl
-
-[See also](https://github.com/clEsperanto/napari_pyclesperanto_assistant#Installation).
+    pip install devbio-napari
 
 ## Contributing
 
