@@ -1,6 +1,8 @@
 
 __version__ = "0.1.5"
 
+from .__main__ import main
+
 from napari_tools_menu import register_dock_widget
 
 from RedLionfishDeconv.napari_plugin import RedLionfish_widget
@@ -15,5 +17,10 @@ register_dock_widget(EstimateTransform, menu="Registration > Estimate transform 
 register_dock_widget(EvaluateMetrics, menu="Registration > Evaluate metrics (platymatch)")
 
 from napari_animation._qt import AnimationWidget
-register_dock_widget(EvaluateMetrics, menu="Visualization > Animation Wizard (napari-animation)")
+register_dock_widget(AnimationWidget, menu="Visualization > Animation Wizard (napari-animation)")
 
+try:
+    from cellpose_napari._dock_widget import widget_wrapper
+    register_dock_widget(widget_wrapper, menu="Segmentation / labeling > Cellpose")
+except ImportError:
+    pass
