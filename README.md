@@ -53,7 +53,7 @@ This [napari] plugin was generated with [Cookiecutter] using with [@napari]'s [c
 
 You can install `devbio-napari` via [pip]:
 
-    conda install -c conda-forge pyopencl
+    conda install -c conda-forge pyopencl hdbscan
     pip install devbio-napari
 
 ## Contributing
