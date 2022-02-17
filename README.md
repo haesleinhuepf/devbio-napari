@@ -25,6 +25,8 @@ A bundle of napari plugins useful for 3D+t image processing and analysis for stu
   * [pyclesperanto-assistant](https://www.napari-hub.org/plugins/napari-pyclesperanto-assistant)
   * [simpleitk-image-processing](https://www.napari-hub.org/plugins/napari-simpleitk-image-processing)
 * Image segmentation plugins
+  * [allencell-segmenter](https://www.napari-hub.org/plugins/napari-allencell-segmenter)
+  * [cellpose](https://www.napari-hub.org/plugins/napari-cellpose)
   * [accelerated-pixel-and-object-classification](https://www.napari-hub.org/plugins/napari-accelerated-pixel-and-object-classification)
   * [pyclesperanto-assistant](https://www.napari-hub.org/plugins/napari-pyclesperanto-assistant)
   * [Manual split & merge labels](https://www.napari-hub.org/plugins/napari-manual-split-and-merge-labels)
@@ -53,6 +55,8 @@ This [napari] plugin was generated with [Cookiecutter] using with [@napari]'s [c
 
 You can install `devbio-napari` via [pip]:
 
+    conda create --name devbio-napari-env python=3.9
+    conda activate devbio-napari-env
     conda install -c conda-forge pyopencl hdbscan
     pip install devbio-napari
 
