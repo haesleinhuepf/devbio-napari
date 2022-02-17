@@ -56,8 +56,12 @@ You can install `devbio-napari` via [pip]:
 
     conda create --name devbio-napari-env python=3.9
     conda activate devbio-napari-env
-    conda install -c conda-forge pyopencl hdbscan
+    conda install -c conda-forge pyopencl==2021.2.6 hdbscan
     pip install devbio-napari
+
+Mac-users with an M1-Mac please also install this:
+
+    conda install ocl_icd_wrapper_apple
 
 ## Contributing
 
