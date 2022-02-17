@@ -29,7 +29,6 @@ A bundle of napari plugins useful for 3D+t image processing and analysis for stu
   * [cellpose](https://www.napari-hub.org/plugins/napari-cellpose)
   * [accelerated-pixel-and-object-classification](https://www.napari-hub.org/plugins/napari-accelerated-pixel-and-object-classification)
   * [pyclesperanto-assistant](https://www.napari-hub.org/plugins/napari-pyclesperanto-assistant)
-  * [Manual split & merge labels](https://www.napari-hub.org/plugins/napari-manual-split-and-merge-labels)
   * [segment-blobs-and-things-with-membranes](https://www.napari-hub.org/plugins/napari-segment-blobs-and-things-with-membranes)
   * [simpleitk-image-processing](https://www.napari-hub.org/plugins/napari-simpleitk-image-processing)
 * Image registration

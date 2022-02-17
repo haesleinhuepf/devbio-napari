@@ -6,7 +6,6 @@ napari-animation
 napari-aicsimageio
 PlatyMatch
 napari-plot-profile
-napari-manual-split-and-merge-labels
 napari-accelerated-pixel-and-object-classification
 napari-brightness-contrast
 napari-ome-zarr
@@ -22,3 +21,7 @@ redlionfish
 napari-workflow-optimizer
 napari-curtain
 napari-3d-ortho-viewer
+cellpose-napari
+# https://github.com/MouseLand/cellpose-napari/issues/21
+# https://forum.image.sc/t/error-when-using-the-napari-cellpose-plugin/63360/2
+cellpose==0.6.5
