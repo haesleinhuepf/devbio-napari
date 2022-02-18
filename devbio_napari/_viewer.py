@@ -3,7 +3,7 @@ def devbio_napari_viewer():
     from qtpy.QtCore import QTimer
     from devbio_napari import __version__ as version
 
-    viewer = napari.Viewer(title="devbio - napari (" + version + ")" )
+    viewer = napari.Viewer(title="devbio-napari" )
 
     #viewer.window.add_plugin_dock_widget("napari-mouse-controls", "Mouse Controls")
 
