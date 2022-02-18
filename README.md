@@ -58,9 +58,28 @@ You can install `devbio-napari` via [pip]:
     conda install -c conda-forge pyopencl==2021.2.6 hdbscan
     pip install devbio-napari
 
-Mac-users with an M1-Mac please also install this:
+Mac-users please also install this:
 
     conda install ocl_icd_wrapper_apple
+
+Afterwards, run this command from the command line
+
+```
+devbio-napari
+```
+
+This window should open. It should the [Assistant](https://www.napari-hub.org/plugins/napari-pyclesperanto-assistant) graphical user interface. 
+Read more about how to use it in its [documentation](https://www.napari-hub.org/plugins/napari-pyclesperanto-assistant).
+
+![img.png](docs/screenshot.png)
+
+## Troubleshooting
+
+In case installation didn't work in the first attempt, you may have to call this command line to reset the napari configuration:
+
+```
+napari --reset
+```
 
 ## Contributing
 
