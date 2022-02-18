@@ -60,7 +60,7 @@ You can install `devbio-napari` via conda and pip. If you have never used conda 
 
 Mac-users please also install this:
 
-    conda install ocl_icd_wrapper_apple
+    conda install -c conda-forge ocl_icd_wrapper_apple
 
 Afterwards, run this command from the command line
 
