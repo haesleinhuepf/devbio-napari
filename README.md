@@ -71,7 +71,7 @@ devbio-napari
 This window should open. It should the [Assistant](https://www.napari-hub.org/plugins/napari-pyclesperanto-assistant) graphical user interface. 
 Read more about how to use it in its [documentation](https://www.napari-hub.org/plugins/napari-pyclesperanto-assistant).
 
-![img.png](docs/screenshot.png)
+![img.png](https://github.com/haesleinhuepf/devbio-napari/raw/master/docs/screenshot.png)
 
 ## Troubleshooting
 
