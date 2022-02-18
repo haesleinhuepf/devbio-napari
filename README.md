@@ -25,7 +25,6 @@ A bundle of napari plugins useful for 3D+t image processing and analysis for stu
   * [pyclesperanto-assistant](https://www.napari-hub.org/plugins/napari-pyclesperanto-assistant)
   * [simpleitk-image-processing](https://www.napari-hub.org/plugins/napari-simpleitk-image-processing)
 * Image segmentation plugins
-  * [allencell-segmenter](https://www.napari-hub.org/plugins/napari-allencell-segmenter)
   * [cellpose](https://www.napari-hub.org/plugins/napari-cellpose)
   * [accelerated-pixel-and-object-classification](https://www.napari-hub.org/plugins/napari-accelerated-pixel-and-object-classification)
   * [pyclesperanto-assistant](https://www.napari-hub.org/plugins/napari-pyclesperanto-assistant)
