@@ -3,7 +3,6 @@ numpy>=1.21.4
 napari-pyclesperanto-assistant
 napari-skimage-regionprops
 napari-animation
-napari-aicsimageio
 PlatyMatch
 napari-plot-profile
 napari-accelerated-pixel-and-object-classification
