@@ -24,7 +24,7 @@ A bundle of napari plugins useful for 3D+t image processing and analysis for stu
   * [pyclesperanto-assistant](https://www.napari-hub.org/plugins/napari-pyclesperanto-assistant)
   * [simpleitk-image-processing](https://www.napari-hub.org/plugins/napari-simpleitk-image-processing)
 * Image segmentation plugins
-  * [cellpose](https://www.napari-hub.org/plugins/napari-cellpose)
+  * [cellpose](https://www.napari-hub.org/plugins/cellpose-napari)
   * [accelerated-pixel-and-object-classification](https://www.napari-hub.org/plugins/napari-accelerated-pixel-and-object-classification)
   * [pyclesperanto-assistant](https://www.napari-hub.org/plugins/napari-pyclesperanto-assistant)
   * [segment-blobs-and-things-with-membranes](https://www.napari-hub.org/plugins/napari-segment-blobs-and-things-with-membranes)
@@ -42,7 +42,7 @@ A bundle of napari plugins useful for 3D+t image processing and analysis for stu
   * [plugin-search](https://www.napari-hub.org/plugins/napari-plugin-search)
   * [crop](https://www.napari-hub.org/plugins/napari-crop)
   * [tabu](https://www.napari-hub.org/plugins/napari-tabu)
-  * [workflow-optimizer](https://www.napari-hub.org/pluginsnapari-workflow-optimizer)
+  * [workflow-optimizer](https://www.napari-hub.org/plugins/napari-workflow-optimizer)
 
 ----------------------------------
 
