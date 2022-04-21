@@ -11,8 +11,6 @@
 
 A bundle of napari plugins useful for 3D+t image processing and analysis for studying developmental biology.
 
-* File input/output plugins
-  * [ome-zarr](https://www.napari-hub.org/plugins/napari-ome-zarr)
 * Image exploration and visualization tools
   * [animation](https://www.napari-hub.org/plugins/napari-animation)
   * [curtain](https://www.napari-hub.org/plugins/napari-curtain)

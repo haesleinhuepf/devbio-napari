@@ -7,7 +7,6 @@ PlatyMatch
 napari-plot-profile
 napari-accelerated-pixel-and-object-classification
 napari-brightness-contrast
-napari-ome-zarr
 napari-plugin-search
 napari-segment-blobs-and-things-with-membranes
 napari-simpleitk-image-processing
