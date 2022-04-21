@@ -53,10 +53,8 @@ This [napari] plugin was generated with [Cookiecutter] using with [@napari]'s [c
 
 You can install `devbio-napari` via conda and pip. If you have never used conda before, please [read this guide first](https://biapol.github.io/blog/johannes_mueller/anaconda_getting_started/):
 
-    conda create --name devbio-napari-env python=3.9
+    conda create --name devbio-napari-env python=3.9 devbio-napari
     conda activate devbio-napari-env
-    conda install -c conda-forge pyopencl==2021.2.6 hdbscan numba=0.55.1
-    pip install devbio-napari
 
 Mac-users please also install this:
 
@@ -69,10 +67,10 @@ Linux users please also install this:
 Afterwards, run this command from the command line
 
 ```
-naparia
+napari
 ```
 
-This window should open. It shows the [Assistant](https://www.napari-hub.org/plugins/napari-assistant) graphical user interface. 
+... and click the menu `Tools > Utilities > Assistant (na)`. This window should open. It shows the [Assistant](https://www.napari-hub.org/plugins/napari-assistant) graphical user interface. 
 Read more about how to use it in its [documentation](https://www.napari-hub.org/plugins/napari-assistant).
 
 ![img.png](https://github.com/haesleinhuepf/devbio-napari/raw/master/docs/screenshot.png)
