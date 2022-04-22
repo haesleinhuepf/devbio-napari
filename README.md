@@ -51,7 +51,7 @@ This [napari] plugin was generated with [Cookiecutter] using with [@napari]'s [c
 
 You can install `devbio-napari` via conda and pip. If you have never used conda before, please [read this guide first](https://biapol.github.io/blog/johannes_mueller/anaconda_getting_started/):
 
-    conda create --name devbio-napari-env python=3.9 devbio-napari
+    conda create --name devbio-napari-env python=3.9 devbio-napari -c conda-forge
     conda activate devbio-napari-env
 
 Mac-users please also install this:
