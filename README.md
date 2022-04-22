@@ -65,10 +65,10 @@ Linux users please also install this:
 Afterwards, run this command from the command line
 
 ```
-napari
+naparia
 ```
 
-... and click the menu `Tools > Utilities > Assistant (na)`. This window should open. It shows the [Assistant](https://www.napari-hub.org/plugins/napari-assistant) graphical user interface. 
+This window should open. It shows the [Assistant](https://www.napari-hub.org/plugins/napari-assistant) graphical user interface. 
 Read more about how to use it in its [documentation](https://www.napari-hub.org/plugins/napari-assistant).
 
 ![img.png](https://github.com/haesleinhuepf/devbio-napari/raw/master/docs/screenshot.png)
