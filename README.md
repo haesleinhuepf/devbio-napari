@@ -40,7 +40,7 @@ A bundle of napari plugins useful for 3D+t image processing and analysis for stu
   * [crop](https://www.napari-hub.org/plugins/napari-crop)
   * [tabu](https://www.napari-hub.org/plugins/napari-tabu)
   * [workflow-optimizer](https://www.napari-hub.org/plugins/napari-workflow-optimizer)
-  * [napari-layer-details-display](https://www.napari-hub.org/plugins/napari-layer-details-display)
+  * [layer-details-display](https://www.napari-hub.org/plugins/napari-layer-details-display)
   
 
 ----------------------------------
@@ -49,7 +49,7 @@ This [napari] plugin was generated with [Cookiecutter] using with [@napari]'s [c
 
 ## Installation
 
-You can install `devbio-napari` via conda and pip. If you have never used conda before, please [read this guide first](https://biapol.github.io/blog/johannes_mueller/anaconda_getting_started/):
+You can install `devbio-napari` via conda. If you have never used conda before, please [read this guide first](https://biapol.github.io/blog/johannes_mueller/anaconda_getting_started/).
 
     conda create --name devbio-napari-env python=3.9 devbio-napari -c conda-forge
     conda activate devbio-napari-env
