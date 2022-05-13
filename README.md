@@ -40,6 +40,7 @@ A bundle of napari plugins useful for 3D+t image processing and analysis for stu
   * [crop](https://www.napari-hub.org/plugins/napari-crop)
   * [tabu](https://www.napari-hub.org/plugins/napari-tabu)
   * [workflow-optimizer](https://www.napari-hub.org/plugins/napari-workflow-optimizer)
+  * [workflow-inspector](https://www.napari-hub.org/plugins/napari-workflow-inspector)
   * [layer-details-display](https://www.napari-hub.org/plugins/napari-layer-details-display)
   
 
