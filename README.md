@@ -42,6 +42,8 @@ A bundle of napari plugins useful for 3D+t image processing and analysis for stu
   * [workflow-optimizer](https://www.napari-hub.org/plugins/napari-workflow-optimizer)
   * [workflow-inspector](https://www.napari-hub.org/plugins/napari-workflow-inspector)
   * [layer-details-display](https://www.napari-hub.org/plugins/napari-layer-details-display)
+  * [mouse-controls](https://www.napari-hub.org/plugins/napari-mouse-controls)
+  * [the-segmentation-game](https://www.napari-hub.org/plugins/the-segmentation-game)
   
 
 ----------------------------------
