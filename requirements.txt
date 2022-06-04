@@ -25,6 +25,7 @@ cellpose-napari
 cellpose==0.6.5
 napari-layer-details-display
 # https://github.com/napari/napari/issues/4415
+napari==0.4.15
 vispy<=0.9.6
 napari-mouse-controls
 the-segmentation-game
