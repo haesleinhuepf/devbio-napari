@@ -322,6 +322,18 @@ A bundle of napari plugins useful for 3D+t image processing and analysis for stu
 <td> </td>
 <td> </td></tr>
 
+<tr><td>
+
+[the-segmentation-game](https://www.napari-hub.org/plugins/napari-process-points-and-surfaces)
+
+</td>
+<td> </td>
+<td>x</td>
+<td>x</td>
+<td>x</td>
+<td> </td>
+<td>x</td>
+<td> </td></tr>
 
 
 </table>
