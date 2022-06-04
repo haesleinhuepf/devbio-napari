@@ -11,40 +11,320 @@
 
 A bundle of napari plugins useful for 3D+t image processing and analysis for studying developmental biology.
 
-* Image exploration and visualization tools
-  * [animation](https://www.napari-hub.org/plugins/napari-animation)
-  * [curtain](https://www.napari-hub.org/plugins/napari-curtain)
-  * [napari-3d-ortho-viewer](https://www.napari-hub.org/plugins/napari-3d-ortho-viewer)
-  * [folder-browser](https://www.napari-hub.org/plugins/napari-folder-browser)
-* Image processing 
-  * [RedLionfish](https://www.napari-hub.org/plugins/RedLionfish)
-  * [pyclesperanto-assistant](https://www.napari-hub.org/plugins/napari-pyclesperanto-assistant)
-  * [simpleitk-image-processing](https://www.napari-hub.org/plugins/napari-simpleitk-image-processing)
-* Image segmentation plugins
-  * [cellpose](https://www.napari-hub.org/plugins/cellpose-napari)
-  * [accelerated-pixel-and-object-classification](https://www.napari-hub.org/plugins/napari-accelerated-pixel-and-object-classification)
-  * [pyclesperanto-assistant](https://www.napari-hub.org/plugins/napari-pyclesperanto-assistant)
-  * [segment-blobs-and-things-with-membranes](https://www.napari-hub.org/plugins/napari-segment-blobs-and-things-with-membranes)
-  * [simpleitk-image-processing](https://www.napari-hub.org/plugins/napari-simpleitk-image-processing)
-* Image registration
-  * [PlatyMatch](https://www.napari-hub.org/plugins/PlatyMatch)
-* Quantitative measurements
-  * [scikit-image regionprops](https://www.napari-hub.org/plugins/napari-skimage-regionprops)
-  * [plot-profile](https://www.napari-hub.org/plugins/napari-plot-profile)
-  * [clusters-plotter](https://www.napari-hub.org/plugins/napari-clusters-plotter)
-  * [pyclesperanto-assistant](https://www.napari-hub.org/plugins/napari-pyclesperanto-assistant)
-  * [simpleitk-image-processing](https://www.napari-hub.org/plugins/napari-simpleitk-image-processing)
-* Utilities
-  * [brightness-contrast](https://www.napari-hub.org/plugins/napari-brightness-contrast)
-  * [plugin-search](https://www.napari-hub.org/plugins/napari-plugin-search)
-  * [crop](https://www.napari-hub.org/plugins/napari-crop)
-  * [tabu](https://www.napari-hub.org/plugins/napari-tabu)
-  * [workflow-optimizer](https://www.napari-hub.org/plugins/napari-workflow-optimizer)
-  * [workflow-inspector](https://www.napari-hub.org/plugins/napari-workflow-inspector)
-  * [layer-details-display](https://www.napari-hub.org/plugins/napari-layer-details-display)
-  * [mouse-controls](https://www.napari-hub.org/plugins/napari-mouse-controls)
-  * [the-segmentation-game](https://www.napari-hub.org/plugins/the-segmentation-game)
-  
+<table>
+
+<tr><td>Plugin</td>
+<td>Exploration</td>
+<td>Processing</td>
+<td>Segmentation</td>
+<td>Measurements</td>
+<td>Classification</td>
+<td>Visualization</td>
+<td>Other</td></tr>
+
+<tr><td>  
+
+[animation](https://www.napari-hub.org/plugins/napari-animation)
+
+</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>x</td>
+<td></td></tr>
+
+<tr><td>  
+
+[curtain](https://www.napari-hub.org/plugins/napari-curtain)
+
+</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>x</td>
+<td></td></tr>
+
+<tr><td>  
+
+[napari-3d-ortho-viewer](https://www.napari-hub.org/plugins/napari-3d-ortho-viewer)
+
+</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>x</td>
+<td></td></tr>
+
+<tr><td>  
+
+[folder-browser](https://www.napari-hub.org/plugins/napari-folder-browser)
+
+</td>
+<td>x</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td></tr>
+
+<tr><td>  
+
+[RedLionfish](https://www.napari-hub.org/plugins/RedLionfish)
+
+</td>
+<td> </td>
+<td>x</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td></tr>
+
+<tr><td>  
+
+[pyclesperanto-assistant](https://www.napari-hub.org/plugins/napari-pyclesperanto-assistant)
+
+</td>
+<td> </td>
+<td>x</td>
+<td>x</td>
+<td>x</td>
+<td> </td>
+<td> </td>
+<td> </td></tr>
+
+<tr><td>  
+
+[simpleitk-image-processing](https://www.napari-hub.org/plugins/napari-simpleitk-image-processing)
+
+</td>
+<td> </td>
+<td>x</td>
+<td>x</td>
+<td>x</td>
+<td> </td>
+<td> </td>
+<td> </td></tr>
+
+<tr><td>  
+
+[segment-blobs-and-things-with-membranes](https://www.napari-hub.org/plugins/napari-segment-blobs-and-things-with-membranes)
+
+</td>
+<td> </td>
+<td>x</td>
+<td>x</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td></tr>
+
+<tr><td>  
+
+[cellpose](https://www.napari-hub.org/plugins/cellpose-napari)
+
+</td>
+<td> </td>
+<td> </td>
+<td>x</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td></tr>
+
+<tr><td>  
+
+[accelerated-pixel-and-object-classification](https://www.napari-hub.org/plugins/napari-accelerated-pixel-and-object-classification)
+
+</td>
+<td> </td>
+<td> </td>
+<td>x</td>
+<td> </td>
+<td>x</td>
+<td> </td>
+<td> </td></tr>
+
+<tr><td>  
+
+[PlatyMatch](https://www.napari-hub.org/plugins/PlatyMatch)
+
+</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>Registration</td></tr>
+
+<tr><td>  
+
+[scikit-image regionprops](https://www.napari-hub.org/plugins/napari-skimage-regionprops)
+
+</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>x</td>
+<td> </td>
+<td> </td>
+<td> </td></tr>
+
+<tr><td>  
+
+[plot-profile](https://www.napari-hub.org/plugins/napari-plot-profile)
+
+</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>x</td>
+<td> </td>
+<td> </td>
+<td> </td></tr>
+
+
+<tr><td>  
+
+[clusters-plotter](https://www.napari-hub.org/plugins/napari-clusters-plotter)
+
+</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>x</td>
+<td>x</td>
+<td> </td>
+<td> </td></tr>
+
+<tr><td>  
+
+[brightness-contrast](https://www.napari-hub.org/plugins/napari-brightness-contrast)
+
+</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>x</td>
+<td> </td></tr>
+
+<tr><td>  
+
+[plugin-search](https://www.napari-hub.org/plugins/napari-plugin-search)
+
+</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>Search plugins</td></tr>
+
+<tr><td>  
+
+[crop](https://www.napari-hub.org/plugins/napari-crop)
+
+</td>
+<td> </td>
+<td>x</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td></tr>
+
+<tr><td>  
+
+[tabu](https://www.napari-hub.org/plugins/napari-tabu)
+
+</td>
+<td> </td>
+<td>x</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>Handle multiple napari windows</td></tr>
+
+<tr><td>  
+
+[workflow-optimizer](https://www.napari-hub.org/plugins/napari-workflow-optimizer)
+
+</td>
+<td> </td>
+<td>x</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>Optimize image processing parameters</td></tr>
+
+<tr><td>  
+
+[workflow-inspector](https://www.napari-hub.org/plugins/napari-workflow-inspector)
+
+</td>
+<td> </td>
+<td>x</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>Visualize workflows</td></tr>
+
+<tr><td>  
+
+[layer-details-display](https://www.napari-hub.org/plugins/napari-layer-details-display)
+
+</td>
+<td> </td>
+<td>x</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>List layer details</td></tr>
+
+<tr><td>
+
+[mouse-controls](https://www.napari-hub.org/plugins/napari-mouse-controls)
+
+</td>
+<td> </td>
+<td>x</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>Pan through stacks, zoom by dragging</td></tr>
+
+<tr><td>
+
+[the-segmentation-game](https://www.napari-hub.org/plugins/the-segmentation-game)
+
+</td>
+<td> </td>
+<td>x</td>
+<td> </td>
+<td>x</td>
+<td> </td>
+<td> </td>
+<td> </td></tr>
+
+
+
+</table>
 
 ----------------------------------
 
