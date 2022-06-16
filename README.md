@@ -64,6 +64,21 @@ A bundle of napari plugins useful for 3D+t image processing and analysis for stu
 
 <tr><td>  
 
+[blob-detection](https://www.napari-hub.org/plugins/napari-blob-detection)
+
+</td>
+<td> </td>
+<td> </td>
+<td>x</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td></td></tr>
+
+
+
+<tr><td>  
+
 [brightness-contrast](https://www.napari-hub.org/plugins/napari-brightness-contrast)
 
 </td>
