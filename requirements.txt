@@ -31,3 +31,4 @@ napari-mouse-controls
 the-segmentation-game
 napari-process-points-and-surfaces
 napari-blob-detection
+jupyterlab
