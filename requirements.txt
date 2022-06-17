@@ -20,9 +20,6 @@ napari-workflow-inspector
 napari-curtain
 napari-3d-ortho-viewer
 cellpose-napari
-# https://github.com/MouseLand/cellpose-napari/issues/21
-# https://forum.image.sc/t/error-when-using-the-napari-cellpose-plugin/63360/2
-cellpose==0.6.5
 napari-layer-details-display
 # https://github.com/napari/napari/issues/4415
 napari==0.4.15
