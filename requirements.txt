@@ -22,6 +22,7 @@ napari-3d-ortho-viewer
 cellpose-napari
 napari-layer-details-display
 # https://github.com/napari/napari/issues/4415
+# https://github.com/napari/napari/issues/4708
 napari==0.4.15
 vispy<=0.9.6
 napari-mouse-controls
