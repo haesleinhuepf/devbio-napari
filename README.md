@@ -150,6 +150,21 @@ A bundle of napari plugins useful for 3D+t image processing and analysis for stu
 
 <tr><td>  
 
+[czifile2](https://www.napari-hub.org/plugins/napari-czifile2)
+
+</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>Read CZI files</td></tr>
+
+
+
+<tr><td>  
+
 [folder-browser](https://www.napari-hub.org/plugins/napari-folder-browser)
 
 </td>
