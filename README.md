@@ -392,7 +392,20 @@ You can install `devbio-napari` via conda. If you have never used conda before, 
 
     conda create --name devbio-napari-env python=3.9 devbio-napari -c conda-forge
     
-This will take a while. Afterwards, activate the environment like this:
+This will take a while. If it takes too long, consider using [mamba](https://github.com/mamba-org/mamba) instead of conda. Therefore, install mamba in your base environment:
+
+```
+conda install mamba
+```
+
+Afterwards, create the environments like above but using mamba instead of conda.
+
+```
+mamba create --name devbio-napari-env python=3.9 devbio-napari -c conda-forge
+```
+
+
+Afterwards, activate the environment like this:
     
     conda activate devbio-napari-env
 
