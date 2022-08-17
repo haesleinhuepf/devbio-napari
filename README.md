@@ -395,7 +395,7 @@ You can install `devbio-napari` via conda. If you have never used conda before, 
 This will take a while. If it takes too long, consider using [mamba](https://github.com/mamba-org/mamba) instead of conda. Therefore, install mamba in your base environment:
 
 ```
-conda install mamba
+conda install mamba -c conda-forge
 ```
 
 Afterwards, create the environments like above but using mamba instead of conda.
