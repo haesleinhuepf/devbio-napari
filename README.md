@@ -60,6 +60,8 @@ A bundle of napari plugins useful for 3D+t image processing and analysis for stu
 * [RedLionfish](https://www.napari-hub.org/plugins/RedLionfish)
   * Deconvolution
   * Processing
+* [roi](https://www.napari-hub.org/plugins/napari-roi)
+  * Manual segmentation
 * [segment-blobs-and-things-with-membranes](https://www.napari-hub.org/plugins/napari-segment-blobs-and-things-with-membranes)
   * Filtering
   * Instance segmentation

@@ -30,3 +30,4 @@ napari-process-points-and-surfaces
 napari-blob-detection
 jupyterlab
 napari-czifile2
+napari-roi
