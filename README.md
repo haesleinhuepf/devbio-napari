@@ -11,8 +11,6 @@
 
 A bundle of napari plugins useful for 3D+t image processing and analysis for studying developmental biology.
 
-* [3d-ortho-viewer](https://www.napari-hub.org/plugins/napari-3d-ortho-viewer)
-  * Visualization
 * [accelerated-pixel-and-object-classification](https://www.napari-hub.org/plugins/napari-accelerated-pixel-and-object-classification)
   * Instance segmentation
   * Semantic segmentation

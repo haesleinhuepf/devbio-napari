@@ -18,7 +18,6 @@ redlionfish
 napari-workflow-optimizer
 napari-workflow-inspector
 napari-curtain
-napari-3d-ortho-viewer
 cellpose-napari
 napari-layer-details-display
 # https://github.com/napari/napari/issues/4415
