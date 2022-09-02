@@ -17,8 +17,7 @@ try:
 except ImportError:
     pass
 
-from napari_3d_ortho_viewer._dock_widget import OrthoViewerWidget
-register_dock_widget( OrthoViewerWidget, menu="Visualization > Ortho Viewer (napari-3d-ortho-viewer)")
+
 
 try:
     from platymatch._dock_widget import DetectNuclei, EstimateTransform, EvaluateMetrics
