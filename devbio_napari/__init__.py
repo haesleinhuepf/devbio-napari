@@ -1,5 +1,5 @@
 
-__version__ = "0.5.10"
+__version__ = "0.6.0"
 
 import napari
 from napari_time_slicer import time_slicer
