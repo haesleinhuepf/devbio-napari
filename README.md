@@ -57,6 +57,9 @@ A bundle of napari plugins useful for 3D+t image processing and analysis for stu
   * Instance segmentation
   * Semantic segmentation
   * Quantification
+* [pystackreg](https://www.napari-hub.org/plugins/napari-pystackreg)
+  * Image registration
+  * Motion correction
 * [RedLionfish](https://www.napari-hub.org/plugins/RedLionfish)
   * Deconvolution
   * Processing

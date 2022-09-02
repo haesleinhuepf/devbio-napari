@@ -32,3 +32,4 @@ jupyterlab
 napari-czifile2
 napari-roi
 pydantic!=1.10.0 # https://twitter.com/Czaki_PL/status/1564908046186434566?s=20&t=YEAgvsUTuYIDRYlKREQp3A
+napari-pystackreg
