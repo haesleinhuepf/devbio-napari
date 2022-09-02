@@ -1,5 +1,5 @@
 
-__version__ = "0.5.10"
+__version__ = "0.6.0"
 
 import napari
 from napari_time_slicer import time_slicer
@@ -17,8 +17,7 @@ try:
 except ImportError:
     pass
 
-from napari_3d_ortho_viewer._dock_widget import OrthoViewerWidget
-register_dock_widget( OrthoViewerWidget, menu="Visualization > Ortho Viewer (napari-3d-ortho-viewer)")
+
 
 try:
     from platymatch._dock_widget import DetectNuclei, EstimateTransform, EvaluateMetrics

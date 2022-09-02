@@ -18,7 +18,6 @@ redlionfish
 napari-workflow-optimizer
 napari-workflow-inspector
 napari-curtain
-napari-3d-ortho-viewer
 cellpose-napari
 napari-layer-details-display
 # https://github.com/napari/napari/issues/4415
@@ -31,3 +30,6 @@ napari-process-points-and-surfaces
 napari-blob-detection
 jupyterlab
 napari-czifile2
+napari-roi
+pydantic!=1.10.0 # https://twitter.com/Czaki_PL/status/1564908046186434566?s=20&t=YEAgvsUTuYIDRYlKREQp3A
+napari-pystackreg
