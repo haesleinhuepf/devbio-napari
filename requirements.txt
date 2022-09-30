@@ -14,7 +14,6 @@ napari-folder-browser
 napari-crop
 napari-clusters-plotter
 napari-tabu
-redlionfish
 napari-workflow-optimizer
 napari-workflow-inspector
 napari-curtain
