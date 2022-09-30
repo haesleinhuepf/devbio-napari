@@ -1,6 +1,7 @@
 
 __version__ = "0.7.0"
 
+
 import napari
 from napari_time_slicer import time_slicer
 from napari_tools_menu import register_function
