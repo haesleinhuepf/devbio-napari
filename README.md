@@ -113,22 +113,12 @@ Afterwards, create the environments like above but using mamba instead of conda.
 ```
 mamba create --name devbio-napari-env python=3.9 devbio-napari -c conda-forge
 ```
-alternatively:
-```
-conda create --name devbio-napari-env python=3.9 devbio-napari -c conda-forge
-```
 
 Afterwards, activate the environment like this:
-    
-    conda activate devbio-napari-env
 
-Mac-users please also install this:
-
-    conda install -c conda-forge ocl_icd_wrapper_apple
-    
-Linux users please also install this:
-    
-    conda install -c conda-forge ocl-icd-system
+```    
+conda activate devbio-napari-env
+```
 
 Afterwards, run this command from the command line
 
@@ -140,6 +130,28 @@ This window should open. It shows the [Assistant](https://www.napari-hub.org/plu
 Read more about how to use it in its [documentation](https://www.napari-hub.org/plugins/napari-assistant).
 
 ![img.png](https://github.com/haesleinhuepf/devbio-napari/raw/master/docs/screenshot.png)
+
+
+## Troubleshooting: Re-installation
+
+When re-installing devbio-napari, make sure to remove the environment before creating it. Directly overwriting does NOT work. 
+Use the following command:
+
+```
+conda env remove -n devbio-napari-env
+```
+
+## Troubleshooting: OpenCL installation
+
+Mac-users please also install this:
+
+    conda install -c conda-forge ocl_icd_wrapper_apple
+    
+Linux users please also install this:
+    
+    conda install -c conda-forge ocl-icd-system
+
+Also consider installing the right graphics cards drivers as explained below.
 
 ## Troubleshooting: Graphics cards drivers
 
