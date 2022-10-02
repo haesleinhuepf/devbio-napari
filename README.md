@@ -17,7 +17,7 @@ A bundle of napari plugins useful for 3D+t image processing and analysis for stu
 To install devbio-napari, use [miniconda](https://docs.conda.io/en/latest/miniconda.html) [mamba](https://github.com/mamba-org/mamba) and in case of trouble see [detailed instructions below](#installation). 
 
 ```commandline
-mamba create --name devbio-napari-env python=3.9 devbio-napari pytorch -c conda-forge -c pytorch
+mamba create --name devbio-napari-env python=3.9 devbio-napari redlionfish -c conda-forge
 ```
 ```commandline
 conda activate devbio-napari-env
@@ -36,9 +36,6 @@ conda activate devbio-napari-env
   * Detection
 * [brightness-contrast](https://www.napari-hub.org/plugins/napari-brightness-contrast)
   * Visualization
-* [cellpose](https://www.napari-hub.org/plugins/cellpose-napari)
-  * Instance segmentation
-  * Deep learning
 * [clusters-plotter](https://www.napari-hub.org/plugins/napari-clusters-plotter)
   * Visualization
   * Plotting
