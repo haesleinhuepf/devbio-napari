@@ -131,6 +131,16 @@ Read more about how to use it in its [documentation](https://www.napari-hub.org/
 
 ![img.png](https://github.com/haesleinhuepf/devbio-napari/raw/master/docs/screenshot.png)
 
+## Troubleshooting: Mac M1/M2: Enforcing arm64 or rosetta installation
+
+To enforce installing a python/conda environment with a specific architecture, run these commands in advance to creating the environment:
+```
+CONDA_SUBDIR=osx-arm64 mamba insta ....
+```
+or
+```
+
+```
 
 ## Troubleshooting: Re-installation
 
