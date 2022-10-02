@@ -11,6 +11,20 @@
 
 A bundle of napari plugins useful for 3D+t image processing and analysis for studying developmental biology.
 
+## Quick start
+
+[TL;DR](https://www.urbandictionary.com/define.php?term=tl%3Bdr):
+To install devbio-napari, use [miniconda](https://docs.conda.io/en/latest/miniconda.html) [mamba](https://github.com/mamba-org/mamba) and in case of trouble see [detailed instructions below](#installation). 
+
+```commandline
+mamba create --name devbio-napari-env python=3.9 devbio-napari pytorch -c conda-forge -c pytorch
+```
+```commandline
+conda activate devbio-napari-env
+```
+
+## Packages shpped with this distribution
+
 * [accelerated-pixel-and-object-classification](https://www.napari-hub.org/plugins/napari-accelerated-pixel-and-object-classification)
   * Instance segmentation
   * Semantic segmentation
