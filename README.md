@@ -97,7 +97,7 @@ Start by installing mamba in your base environment:
 conda install mamba -c conda-forge
 ```
 
-Afterwards, create the environments like above but using mamba instead of conda.
+Afterwards, create an environment using mamba.
 
 ```
 mamba create --name devbio-napari-env python=3.9 devbio-napari -c conda-forge
