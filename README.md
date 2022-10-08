@@ -102,10 +102,6 @@ Afterwards, create the environments like above but using mamba instead of conda.
 ```
 mamba create --name devbio-napari-env python=3.9 devbio-napari -c conda-forge
 ```
-alternatively:
-```
-conda create --name devbio-napari-env python=3.9 devbio-napari -c conda-forge
-```
 
 Afterwards, activate the environment like this:
     
@@ -130,6 +126,15 @@ In case error messages contains "ImportError: DLL load failed while importing cl
 * [NVidia drivers](https://www.nvidia.com/download/index.aspx)
 * [Intel CPU OpenCL drivers](https://www.intel.com/content/www/us/en/developer/articles/tool/opencl-drivers.html#latest_CPU_runtime)
 * [Microsoft Windows OpenCL support](https://www.microsoft.com/en-us/p/opencl-and-opengl-compatibility-pack/9nqpsl29bfff)
+
+Sometimes, mac-users please need to install this:
+
+    conda install -c conda-forge ocl_icd_wrapper_apple
+
+Sometimes, linux users please meet to install this:
+
+    conda install -c conda-forge ocl-icd-system
+
 
 In case installation didn't work in the first attempt, you may have to call this command line to reset the napari configuration:
 
