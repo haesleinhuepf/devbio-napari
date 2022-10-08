@@ -111,14 +111,6 @@ Afterwards, activate the environment like this:
     
     conda activate devbio-napari-env
 
-Mac-users please also install this:
-
-    conda install -c conda-forge ocl_icd_wrapper_apple
-    
-Linux users please also install this:
-    
-    conda install -c conda-forge ocl-icd-system
-
 Afterwards, run this command from the command line
 
 ```
