@@ -17,7 +17,6 @@ napari-tabu
 napari-workflow-optimizer
 napari-workflow-inspector
 napari-curtain
-cellpose-napari
 napari-layer-details-display
 # https://github.com/napari/napari/issues/4415
 # https://github.com/napari/napari/issues/4708
