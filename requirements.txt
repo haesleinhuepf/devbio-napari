@@ -33,3 +33,4 @@ napari-roi
 pydantic!=1.10.0 # https://twitter.com/Czaki_PL/status/1564908046186434566?s=20&t=YEAgvsUTuYIDRYlKREQp3A
 napari-pystackreg
 imageio!=2.22.1 # https://github.com/napari/napari/pull/5168
+redlionfish
