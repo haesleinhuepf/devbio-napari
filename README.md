@@ -22,9 +22,6 @@ A bundle of napari plugins useful for 3D+t image processing and analysis for stu
   * Detection
 * [brightness-contrast](https://www.napari-hub.org/plugins/napari-brightness-contrast)
   * Visualization
-* [cellpose](https://www.napari-hub.org/plugins/cellpose-napari)
-  * Instance segmentation
-  * Deep learning
 * [clusters-plotter](https://www.napari-hub.org/plugins/napari-clusters-plotter)
   * Visualization
   * Plotting
@@ -50,8 +47,6 @@ A bundle of napari plugins useful for 3D+t image processing and analysis for stu
   * Quantification
 * [plugin-search](https://www.napari-hub.org/plugins/napari-plugin-search)
   * Interaction
-* [process-points-and-surfaces](https://www.napari-hub.org/plugins/napari-process-points-and-surfaces)
-  * Processing
 * [pyclesperanto-assistant](https://www.napari-hub.org/plugins/napari-pyclesperanto-assistant)
   * Filtering
   * Instance segmentation
@@ -60,6 +55,9 @@ A bundle of napari plugins useful for 3D+t image processing and analysis for stu
 * [pystackreg](https://www.napari-hub.org/plugins/napari-pystackreg)
   * Image registration
   * Motion correction
+* [RedLionfish](https://www.napari-hub.org/plugins/RedLionfish)
+  * Deconvolution
+  * Processing
 * [roi](https://www.napari-hub.org/plugins/napari-roi)
   * Manual segmentation
 * [segment-blobs-and-things-with-membranes](https://www.napari-hub.org/plugins/napari-segment-blobs-and-things-with-membranes)
