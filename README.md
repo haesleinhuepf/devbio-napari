@@ -125,11 +125,11 @@ In case error messages contains "ImportError: DLL load failed while importing cl
 * [Intel CPU OpenCL drivers](https://www.intel.com/content/www/us/en/developer/articles/tool/opencl-drivers.html#latest_CPU_runtime)
 * [Microsoft Windows OpenCL support](https://www.microsoft.com/en-us/p/opencl-and-opengl-compatibility-pack/9nqpsl29bfff)
 
-Sometimes, mac-users please need to install this:
+Sometimes, mac-users need to install this:
 
     conda install -c conda-forge ocl_icd_wrapper_apple
 
-Sometimes, linux users please meet to install this:
+Sometimes, linux users need to install this:
 
     conda install -c conda-forge ocl-icd-system
 
