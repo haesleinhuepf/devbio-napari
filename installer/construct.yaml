@@ -1,0 +1,10 @@
+name: devbio-napari
+version: 0.8.0
+installer_type: all
+
+channels:
+  - conda-forge
+
+specs:
+  - python=3.9
+  - devbio-napari=0.8.0

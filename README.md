@@ -141,6 +141,15 @@ In case installation didn't work in the first attempt, you may have to call this
 napari --reset
 ```
 
+## For developers: Constructing an installer
+
+Using [constructor](https://github.com/conda/constructor) we can build operating-system specific installers like this:
+
+```
+mamba install constructor
+constructor installer
+```
+
 ## Contributing
 
 Contributions are very welcome. 
