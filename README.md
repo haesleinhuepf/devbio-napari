@@ -22,6 +22,8 @@ A bundle of napari plugins useful for 3D+t image processing and analysis for stu
   * Detection
 * [brightness-contrast](https://www.napari-hub.org/plugins/napari-brightness-contrast)
   * Visualization
+* [cellpose](https://www.napari-hub.org/plugins/cellpose-napari)
+  * Segmentation 
 * [clusters-plotter](https://www.napari-hub.org/plugins/napari-clusters-plotter)
   * Visualization
   * Plotting
@@ -98,12 +100,14 @@ conda install mamba -c conda-forge
 Afterwards, create an environment using mamba.
 
 ```
-mamba create --name devbio-napari-env python=3.9 devbio-napari -c conda-forge
+mamba create --name devbio-napari-env python=3.9 devbio-napari -c conda-forge -c pytorch
 ```
 
 Afterwards, activate the environment like this:
-    
-    conda activate devbio-napari-env
+
+```
+mamba activate devbio-napari-env
+```
 
 Afterwards, run this command from the command line
 

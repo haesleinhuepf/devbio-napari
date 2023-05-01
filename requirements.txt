@@ -12,7 +12,7 @@ napari-segment-blobs-and-things-with-membranes
 napari-simpleitk-image-processing
 napari-folder-browser
 napari-crop
-napari-clusters-plotter
+napari-clusters-plotter>=0.7.1
 napari-tabu
 napari-workflow-optimizer
 napari-workflow-inspector
@@ -34,3 +34,4 @@ napari-pystackreg
 imageio!=2.22.1 # https://github.com/napari/napari/pull/5168
 redlionfish
 jupyter_server<2.0.0 # https://github.com/jupyter-server/jupyter_server/issues/1127
+cellpose-napari
