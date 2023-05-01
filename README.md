@@ -88,7 +88,7 @@ A bundle of napari plugins useful for 3D+t image processing and analysis for stu
 
 ## Installation
 
-You can install `devbio-napari` via conda/mamba. If you have never used conda before, please [read this guide first](https://biapol.github.io/blog/johannes_mueller/anaconda_getting_started/).  
+You can install `devbio-napari` via conda/mamba. If you have never used conda before, please [read this guide first](https://biapol.github.io/blog/mara_lampert/getting_started_with_mambaforge_and_python/readme.html).  
 Start by installing mamba in your base environment:
 
 ```
