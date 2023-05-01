@@ -145,6 +145,19 @@ In case installation didn't work in the first attempt, you may have to call this
 napari --reset
 ```
 
+## Troubleshooting: pytorch
+
+In case pytorch-related plugins fail, install pytorch as explained on [its website](https://pytorch.org/get-started/locally/). Consider replacing `conda` with `mamba` in given instructions.
+
+For example if you have an NVidia GPU at hand, install pytorch like this:
+```
+mamba install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvidia
+```
+Or if not:
+```
+mamba install pytorch torchvision torchaudio cpuonly -c pytorch
+```
+
 ## Contributing
 
 Contributions are very welcome. 
