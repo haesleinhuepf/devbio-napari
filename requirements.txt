@@ -35,3 +35,4 @@ imageio!=2.22.1 # https://github.com/napari/napari/pull/5168
 redlionfish
 jupyter_server<2.0.0 # https://github.com/jupyter-server/jupyter_server/issues/1127
 cellpose-napari
+seaborn
