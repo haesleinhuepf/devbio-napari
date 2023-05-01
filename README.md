@@ -86,8 +86,6 @@ A bundle of napari plugins useful for 3D+t image processing and analysis for stu
 
 ----------------------------------
 
-This [napari] plugin was generated with [Cookiecutter] using with [@napari]'s [cookiecutter-napari-plugin] template.
-
 ## Installation
 
 You can install `devbio-napari` via conda/mamba. If you have never used conda before, please [read this guide first](https://biapol.github.io/blog/johannes_mueller/anaconda_getting_started/).  
