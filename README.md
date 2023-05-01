@@ -22,6 +22,8 @@ A bundle of napari plugins useful for 3D+t image processing and analysis for stu
   * Detection
 * [brightness-contrast](https://www.napari-hub.org/plugins/napari-brightness-contrast)
   * Visualization
+* [cellpose](https://www.napari-hub.org/plugins/cellpose-napari)
+  * Segmentation 
 * [clusters-plotter](https://www.napari-hub.org/plugins/napari-clusters-plotter)
   * Visualization
   * Plotting
@@ -84,8 +86,6 @@ A bundle of napari plugins useful for 3D+t image processing and analysis for stu
 
 ----------------------------------
 
-This [napari] plugin was generated with [Cookiecutter] using with [@napari]'s [cookiecutter-napari-plugin] template.
-
 ## Installation
 
 You can install `devbio-napari` via conda/mamba. If you have never used conda before, please [read this guide first](https://biapol.github.io/blog/johannes_mueller/anaconda_getting_started/).  
@@ -98,12 +98,14 @@ conda install mamba -c conda-forge
 Afterwards, create an environment using mamba.
 
 ```
-mamba create --name devbio-napari-env python=3.9 devbio-napari -c conda-forge
+mamba create --name devbio-napari-env python=3.9 devbio-napari -c conda-forge -c pytorch
 ```
 
 Afterwards, activate the environment like this:
-    
-    conda activate devbio-napari-env
+
+```
+mamba activate devbio-napari-env
+```
 
 Afterwards, run this command from the command line
 
@@ -139,6 +141,19 @@ In case installation didn't work in the first attempt, you may have to call this
 
 ```
 napari --reset
+```
+
+## Troubleshooting: pytorch
+
+In case pytorch-related plugins fail, install pytorch as explained on [its website](https://pytorch.org/get-started/locally/). Consider replacing `conda` with `mamba` in given instructions.
+
+For example if you have an NVidia GPU at hand, install pytorch like this:
+```
+mamba install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvidia
+```
+Or if not:
+```
+mamba install pytorch torchvision torchaudio cpuonly -c pytorch
 ```
 
 ## Contributing
