@@ -22,8 +22,6 @@ A bundle of napari plugins useful for 3D+t image processing and analysis for stu
   * Detection
 * [brightness-contrast](https://www.napari-hub.org/plugins/napari-brightness-contrast)
   * Visualization
-* [cellpose](https://www.napari-hub.org/plugins/cellpose-napari)
-  * Segmentation 
 * [clusters-plotter](https://www.napari-hub.org/plugins/napari-clusters-plotter)
   * Visualization
   * Plotting
