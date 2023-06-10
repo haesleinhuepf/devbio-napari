@@ -1,0 +1,11 @@
+#!/bin/bash
+ENV_DIR="$(dirname "$0")/devbio-napari"
+
+export PATH="$ENV_DIR/bin:$PATH"
+export CONDA_PREFIX="$ENV_DIR"
+export CONDA_DEFAULT_ENV="$ENV_DIR"
+export CONDA_PROMPT_MODIFIER="(devbio-napari) "
+export CONDA_SHLVL=1
+export LD_LIBRARY_PATH="$ENV_DIR/lib:$LD_LIBRARY_PATH"
+
+$ENV_DIR/bin/naparia "$@"

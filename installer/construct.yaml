@@ -8,3 +8,34 @@ channels:
 specs:
   - python=3.9
   - devbio-napari=0.8.0
+
+license_file: ../LICENSE
+
+readme_text: |
+  devbio-napari
+
+  A bundle of napari plugins useful for 3D+t image processing and analysis for studying developmental biology.
+
+  https://github.com/haesleinhuepf/devbio-napari
+
+welcome_image: devbio-napari-icon.png
+
+# MacOS specific pkg installer that builds a .app
+default_location_pkg: Applications/devbio-napari.app/Contents/Resources
+
+pkg_name: devbio-napari
+
+extra_files:
+  - Mac/devbio-napari.app.tar.gz: devbio-napari.app.tar.gz
+
+post_install: Mac/create_app.sh
+
+welcome_text: |
+  Welcome to the devbio-napari installer!
+
+  This installer will install devbio-napari.app. We recommend to install it to the default location, i.e. the 'Applications' folder of your home directory.
+
+  If you have any questions or issues, please visit https://github.com/haesleinhuepf/devbio-napari
+
+conclusion_text: |
+  If you installed to the default location, you can find devbio-napari.app in your users ~/Applications folder.
