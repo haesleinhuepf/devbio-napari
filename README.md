@@ -87,13 +87,7 @@ A bundle of napari plugins useful for 3D+t image processing and analysis for stu
 ## Installation
 
 You can install `devbio-napari` via conda/mamba. If you have never used conda before, please [read this guide first](https://biapol.github.io/blog/mara_lampert/getting_started_with_mambaforge_and_python/readme.html).  
-Start by installing mamba in your base environment:
-
-```
-conda install mamba -c conda-forge
-```
-
-Afterwards, create an environment using mamba.
+Start by creating an environment using mamba.
 
 ```
 mamba create --name devbio-napari-env python=3.9 devbio-napari -c conda-forge -c pytorch
