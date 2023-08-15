@@ -71,6 +71,8 @@ A bundle of napari plugins useful for 3D+t image processing and analysis for stu
   * Quantification
 * [skimage-regionprops](https://www.napari-hub.org/plugins/napari-skimage-regionprops)
   * Quantification
+* [stl-exporter](https://www.napari-hub.org/plugins/napari-stl-exporter)
+  * File input/output
 * [tabu](https://www.napari-hub.org/plugins/napari-tabu)
   * Interaction
 * [the-segmentation-game](https://www.napari-hub.org/plugins/the-segmentation-game)
