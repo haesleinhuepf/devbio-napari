@@ -1,15 +1,16 @@
 name: devbio-napari
-version: 0.8.0
-installer_type: all
+version: 0.10.1
+installer_type: pkg
 
 channels:
   - conda-forge
 
 specs:
-  - python=3.9
-  - devbio-napari=0.8.0
+  - python=3.11
+  - devbio-napari=0.10.1
+  - pyqt
 
-license_file: ../LICENSE
+license_file: ../../LICENSE
 
 readme_text: |
   devbio-napari
@@ -18,7 +19,7 @@ readme_text: |
 
   https://github.com/haesleinhuepf/devbio-napari
 
-welcome_image: devbio-napari-icon.png
+welcome_image: ../devbio-napari-icon.png
 
 # MacOS specific pkg installer that builds a .app
 default_location_pkg: Applications/devbio-napari.app/Contents/Resources
@@ -26,9 +27,9 @@ default_location_pkg: Applications/devbio-napari.app/Contents/Resources
 pkg_name: devbio-napari
 
 extra_files:
-  - Mac/devbio-napari.app.tar.gz: devbio-napari.app.tar.gz
+  - devbio-napari.app.tar.gz: devbio-napari.app.tar.gz
 
-post_install: Mac/create_app.sh
+post_install: create_app.sh
 
 welcome_text: |
   Welcome to the devbio-napari installer!
