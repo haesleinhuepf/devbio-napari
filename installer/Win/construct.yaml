@@ -10,7 +10,20 @@ specs:
   - devbio-napari=0.10.1
   - pyqt
   - pyrsistent
-  - napari-menu
+  - menuinst>=2.0.2
+  - pip
+
+menu_packages: []
+
+# Do not offer to add the devbio-napari python to the PATH
+initialize_conda: False
+
+# Do not offer to register the devbio-napari python as the default python executable
+register_python: False
+
+extra_files:
+  - shortcut.json: Menu/devbio-napari_shortcut.json
+  - ../devbio-napari-icon.ico: Scripts/devbio-napari.ico
 
 license_file: ../../LICENSE
 
@@ -22,5 +35,12 @@ readme_text: |
   https://github.com/haesleinhuepf/devbio-napari
 
 welcome_image: ../devbio-napari-icon.png
+icon_image: ../devbio-napari-icon.png
 
 pkg_name: devbio-napari
+
+# Since we do not have a package that provides Menu/devbio-napari_shortcut.json (like napari-menu does), we need to create the start menu shortcuts ourselves
+post_install: install_menu_shortcut.bat
+post_install_desc: "Recommended. Creates start menu entry"
+
+pre_uninstall: uninstall_menu_shortcut.bat
