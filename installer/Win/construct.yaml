@@ -15,6 +15,7 @@ specs:
   - napari-czifile2
   - nd2reader
   - readlif
+  - h5py
   - pip
 
 menu_packages: []
