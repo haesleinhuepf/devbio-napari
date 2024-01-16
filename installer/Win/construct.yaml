@@ -11,6 +11,10 @@ specs:
   - pyqt
   - pyrsistent
   - menuinst>=2.0.2
+  - napari-aicsimageio
+  - napari-czifile2
+  - nd2reader
+  - readlif
   - pip
 
 menu_packages: []
