@@ -1,0 +1,51 @@
+name: devbio-napari
+version: 0.10.1
+installer_type: exe
+
+channels:
+  - conda-forge
+
+specs:
+  - python=3.11
+  - devbio-napari=0.10.1
+  - pyqt
+  - pyrsistent
+  - menuinst>=2.0.2
+  - napari-aicsimageio
+  - napari-czifile2
+  - nd2reader
+  - readlif
+  - h5py
+  - pip
+
+menu_packages: []
+
+# Do not offer to add the devbio-napari python to the PATH
+initialize_conda: False
+
+# Do not offer to register the devbio-napari python as the default python executable
+register_python: False
+
+extra_files:
+  - shortcut.json: Menu/devbio-napari_shortcut.json
+  - ../devbio-napari-icon.ico: Scripts/devbio-napari.ico
+
+license_file: ../../LICENSE
+
+readme_text: |
+  devbio-napari
+
+  A bundle of napari plugins useful for 3D+t image processing and analysis for studying developmental biology.
+
+  https://github.com/haesleinhuepf/devbio-napari
+
+welcome_image: ../devbio-napari-icon.png
+icon_image: ../devbio-napari-icon.png
+
+pkg_name: devbio-napari
+
+# Since we do not have a package that provides Menu/devbio-napari_shortcut.json (like napari-menu does), we need to create the start menu shortcuts ourselves
+post_install: install_menu_shortcut.bat
+post_install_desc: "Recommended. Creates start menu entry"
+
+pre_uninstall: uninstall_menu_shortcut.bat

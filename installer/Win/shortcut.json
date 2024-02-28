@@ -1,0 +1,12 @@
+{
+    "menu_name": "devbio-napari",
+    "menu_items":
+    [
+        {
+            "name": "Devbio Napari",
+            "pyscript": "${PYTHON_SCRIPTS}/naparia-script.py",
+            "workdir": "${PERSONALDIR}/Python Scripts",
+            "icon": "${PYTHON_SCRIPTS}/devbio-napari.ico"
+        }
+    ]
+}

@@ -1,0 +1,1 @@
+"%PREFIX%\python.exe" -c "from menuinst import install; install(r'%PREFIX%\Menu\devbio-napari_shortcut.json')"

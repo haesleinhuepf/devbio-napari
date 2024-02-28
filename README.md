@@ -142,12 +142,7 @@ napari --reset
 
 ## For developers: Constructing an installer
 
-Using [constructor](https://github.com/conda/constructor) we can build operating-system specific installers like this:
-
-```
-mamba install constructor
-constructor installer
-```
+Using [constructor](https://github.com/conda/constructor) we can build operating-system specific installers as [described here](installer/Readme.md). 
 
 ## Contributing
 
