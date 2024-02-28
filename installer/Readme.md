@@ -11,13 +11,15 @@ conda config --set solver libmamba
 mamba install constructor
 ```
 
-create the devbio-napari installer for windows
+now clone this repository and from within the main directory of the repository
+
+create the devbio-napari installer for windows (on a windows computer)
 
 ```
 constructor installer\Win
 ```
 
-alternatively, create the devbio-napari installer for Mac OS
+alternatively, create the devbio-napari installer for Mac OS (on a Mac)
 
 ```
 constructor installer/Mac
