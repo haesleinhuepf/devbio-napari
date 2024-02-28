@@ -8,7 +8,8 @@ conda install -n base conda-libmamba-solver
 conda config --set solver libmamba
 
 # install constructor (preferrably into a new environment)
-mamba install constructor
+mamba create -n constructor-env constructor
+mamba activate constructor-env
 ```
 
 now clone this repository and from within the main directory of the repository
