@@ -92,7 +92,7 @@ You can install `devbio-napari` via conda/mamba. If you have never used conda be
 Start by creating an environment using mamba.
 
 ```
-mamba create --name devbio-napari-env python=3.9 devbio-napari pyqt -c conda-forge -c pytorch
+mamba create --name devbio-napari-env napari=0.4.19 python=3.9 devbio-napari pyqt -c conda-forge -c pytorch
 ```
 
 Afterwards, activate the environment like this:
