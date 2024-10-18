@@ -1,5 +1,5 @@
 napari-plugin-engine>=0.1.4
-npe2 to <0.7.0 # https://github.com/haesleinhuepf/devbio-napari/issues/41
+npe2
 numpy>=1.21.4
 napari-pyclesperanto-assistant
 napari-skimage-regionprops
