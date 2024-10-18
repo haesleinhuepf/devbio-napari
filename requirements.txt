@@ -1,5 +1,5 @@
 napari-plugin-engine>=0.1.4
-npe2 to <0.7.0 # https://github.com/haesleinhuepf/devbio-napari/issues/41
+npe2
 numpy>=1.21.4
 napari-pyclesperanto-assistant
 napari-skimage-regionprops
@@ -35,5 +35,5 @@ pydantic!=1.10.0 # https://twitter.com/Czaki_PL/status/1564908046186434566?s=20&
 napari-pystackreg
 imageio!=2.22.1 # https://github.com/napari/napari/pull/5168
 redlionfish
-jupyter_server<2.0.0 # https://github.com/jupyter-server/jupyter_server/issues/1127
+jupyter_server
 seaborn
