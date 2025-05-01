@@ -95,6 +95,8 @@ Start by creating an environment using mamba.
 mamba create --name devbio-napari-env napari=0.4.19 python=3.9 devbio-napari pyqt -c conda-forge -c pytorch
 ```
 
+Note: devbio-napari is not compatible with napari 0.6.0 and beyond.
+
 Afterwards, activate the environment like this:
 
 ```
